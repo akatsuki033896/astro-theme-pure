@@ -3,11 +3,11 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // [Basic]
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: 'Astro Theme Pure',
+  title: 'AKTK-Lab',
   /** Will be used in index page & copyright declaration */
-  author: 'Pure Lab',
+  author: 'Akatsuki',
   /** Description metadata for your website. Can be used in page metadata. */
-  description: 'Stay hungry, stay foolish',
+  description: 'There is something that I miss in my life.',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
   favicon: '/favicon/favicon.ico',
   /** The default social card image for your site which should be a path to an image in the `public/` directory. */
@@ -26,7 +26,7 @@ export const theme: ThemeUserConfig = {
   },
   /** Set a logo image to show in the homepage. */
   logo: {
-    src: '/src/assets/avatar.png',
+    src: '/src/assets/avatar.jpg',
     alt: 'Avatar'
   },
 
@@ -49,7 +49,6 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'Blog', link: '/blog' },
-      { title: 'Docs', link: '/docs' },
       { title: 'Projects', link: '/projects' },
       { title: 'Links', link: '/links' },
       { title: 'About', link: '/about' }
@@ -64,8 +63,8 @@ export const theme: ThemeUserConfig = {
     links: [
       // Registration link
       {
-        title: 'Moe ICP 114514',
-        link: 'https://icp.gov.moe/?keyword=114514',
+        title: '闽ICP备2026000130号-1',
+        link: 'https://beian.miit.gov.cn/#/Integrated/recordQuery',
         style: 'text-sm' // Uno/TW CSS class
       },
       // Privacy Policy link
@@ -79,7 +78,7 @@ export const theme: ThemeUserConfig = {
     credits: true,
     /** Optional details about the social media accounts for this site. */
     social: [
-      { icon: 'github', label: 'GitHub', href: 'https://github.com/cworld1/astro-theme-pure' },
+      { icon: 'github', label: 'GitHub', href: 'https://github.com/akatsuki033896' },
       { icon: 'rss', label: 'RSS', href: '/rss.xml' }
     ]
   },
@@ -118,8 +117,8 @@ export const integ: IntegrationUserConfig = {
     applyTip: [
       { name: 'Name', val: theme.title },
       { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://astro-pure.js.org/' },
-      { name: 'Avatar', val: 'https://astro-pure.js.org/favicon/favicon.ico' }
+      { name: 'Link', val: 'https://aktk-lab.online/' },
+      { name: 'Avatar', val: 'https://aktk-lab.online/favicon.ico' }
     ],
     // Cache avatars in `public/avatars/` to improve user experience.
     cacheAvatar: false
@@ -163,7 +162,7 @@ export const integ: IntegrationUserConfig = {
   },
   // Comment system
   waline: {
-    enable: true,
+    enable: false,
     // Server service link
     server: 'https://astro-theme-pure-waline.arthals.ink/',
     // Show meta info for comments
