@@ -1,7 +1,7 @@
 ---
 title: 'Ardupilot part.1: 项目编译和构建'
 publishDate: 2026-06-23
-updatedDate: 2026-06-27
+updatedDate: 2026-06-30
 description: '以mcu为stm32的飞控板为例，在不同环境下配置构建环境和构建项目'
 tags:
   - Ardupilot
@@ -232,6 +232,10 @@ bin/ardurover   1425312      2776   126076               1428088          636292
 
 ![](https://ardupilot.org/dev/_images/ArdupilotSoftwareintheLoopSITL.jpg)
 
+SITL(Software in the Loop)可以在不需要任何硬件的条件下模拟ardupilot，主要用于测试算法等。ardupilot通过TCP5763端口通过TCP5760端口直接和Mission Planner地面站进行通信，也可以使用MAVProxy协议进行通信，再通过UDP14550和其他地面站例如QGroundControl进行通信。
+
+[Example of using SITL by Vehicle](https://ardupilot.org/dev/docs/sitl-examples.html)提供了多种使用SITL模拟的案例。
+
 ```sh
 ./waf configure --board sitl
 cd Rover
@@ -244,7 +248,68 @@ cd Rover
 
 ![](./QGC2.png)
 
-使用SITL测试：https://ardupilot.org/dev/docs/using-sitl-for-ardupilot-testing.html#using-sitl-for-ardupilot-testing
+### 使用SITL运行仓库提供的 `example`
+
+https://ardupilot.org/dev/docs/using-sitl-for-ardupilot-testing.html#using-sitl-for-ardupilot-testing
+
+查看仓库中可用的测试样例
+
+```sh
+./waf list | grep 'examples'
+
+examples/AC_PID_test 
+examples/AHRS_Test 
+examples/AP_Common 
+examples/AP_Compass_test 
+examples/AP_Declination_test 
+...
+```
+
+构建example的过程参照下面部分
+
+## 第一个ardupilot程序： `example/Hello`
+
+以构建 `Tools/Hello/Hello.cpp` 为例，该测试样例相当于ardupilot的hello world，主要功能是每隔1000ms（模拟器时间）打印一个 `*`，此外还有别的可以用于测试的程序例如 `UART_test.cpp`
+
+```cpp
+/*
+  simple hello world sketch
+  Andrew Tridgell September 2011
+*/
+
+#include <AP_HAL/AP_HAL.h>
+
+void setup();
+void loop();
+
+const AP_HAL::HAL& hal = AP_HAL::get_HAL();
+
+void setup()
+{
+    hal.console->printf("hello world\n");
+}
+
+void loop()
+{
+    hal.scheduler->delay(1000);
+    hal.console->printf("*\n");
+}
+
+AP_HAL_MAIN();
+
+```
+
+### 运行
+
+设置编译选项后构建，然后运行
+
+```sh
+./waf configure --board=sitl
+./waf build --target examples/Hello
+./build/sitl/examples/Hello -M quad -C # 运行
+```
+
+可以看到在终端中很快的打印出 `*` 字符，比1s快很多。因为 `delay(1000)` 表示延迟1000ms，但是等待的不是实际时间，是HAL的时间(Scheduler Time)，在SITL中这个时间来自模拟器，如果模拟器速度是100x则现实中只需要等待10ms。该样例仅用于测试 `setup()` 和 `loop()` 是否正常。
 
 ## Reference
 
@@ -252,3 +317,4 @@ cd Rover
 - [# Setting up the Build Environment (MacOSX)](https://ardupilot.org/dev/docs/building-setup-mac.html#building-setup-mac)
 - [ardupilot/BUILD.md](https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md)
 - [SITL on Windows using WSL](https://ardupilot.org/dev/docs/sitl-on-windows-wsl.html)
+- [Library Example Sketches](https://ardupilot.org/dev/docs/learning-ardupilot-the-example-sketches.html)
