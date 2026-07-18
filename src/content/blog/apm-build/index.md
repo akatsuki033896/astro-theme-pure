@@ -1,5 +1,5 @@
 ---
-title: 'Ardupilot part.1: 项目编译和构建'
+title: 'Ardupilot: 项目编译和构建'
 publishDate: 2026-06-23
 updatedDate: 2026-06-30
 description: '以mcu为stm32的飞控板为例，在不同环境下配置构建环境和构建项目'
