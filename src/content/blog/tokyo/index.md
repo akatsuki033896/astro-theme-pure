@@ -105,7 +105,7 @@ live结束后和友人K和友人N在旁边的酒吧[HANEDA SKY BREWING](https://
 
 ## 1/17 MAZE: エキセントリックトーキョー
 
-Livehouse: 代官山UNIT
+Livehouse: 代官山SPACE ODD
 
 今天最主要的行程是去看MAZE参与的拼盘Live。白天因为酒店入住是下午四点才开始，不得不拖着行李箱在涉谷当特种兵...
 
