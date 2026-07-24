@@ -5,7 +5,6 @@ import Substats from '@/components/about/Substats.astro'
 import ToolSection from '@/components/about/ToolSection.astro'
 
 const headings = [
-  { depth: 2, slug: 'hobbies', text: 'Hobbies' },
   { depth: 2, slug: 'tools', text: 'Tools' },
   { depth: 2, slug: 'social-networks', text: 'Social Networks' },
   { depth: 2, slug: 'about-blog', text: 'About Blog' }
@@ -13,15 +12,22 @@ const headings = [
 ---
 
 <PageLayout title='About' {headings} comment>
-  <p>Embedded Software Developer</p>
   <p>
-    I'm Akatsuki. I working as an embedded software developer and develop Open-source flight controller. I majored in Computer Science and Technology and graduated in 2026. 
-    My interest was Industrial Internet of Things (IIoT), and my research focused on physical layer key generation (PLKG).
-    I also interest in Metalcore, Electronicore and Japanese Loud Rock music genre.
+    I'm Akatsuki, a C++ developer. I'm working on GIS development and rendering.
+    
+    I was graduated at 2026 with a major in Computer Science and Technology. My research focused on physical layer key generation (PLKG).
+
+    I like Metalcore, Electronicore, Melodic-Hardcore, Hip-Hop and Japanese Loud Rock music genre.
+  
+    Contact me: aktk033896@gmail.com
   </p>
+
   <p>
-    Motto: We all get used to in the end, whatever goes. 
-    <!-- <Spoiler>sxunさん我想你了</Spoiler> -->
+    <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/qgis-%2393b023?&style=for-the-badge&logo=qgis&logoColor=white" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/Qt-%23217346.svg?style=for-the-badge&logo=Qt&logoColor=white" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/OpenGL-%23FFFFFF.svg?style=for-the-badge&logo=opengl" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white" style="display:inline-block;">
   </p>
 
   {/* tools */}
@@ -50,10 +56,10 @@ const headings = [
     title='Productivity'
     tools={[
       {
-        name: 'Chrome',
+        name: 'Vivaldi',
         description: 'Browser',
-        href: 'https://www.google.com/chrome/',
-        icon: import('@/assets/tools/chrome.svg?raw')
+        href: 'https://www.vivaldi.com/',
+        icon: import('@/assets/tools/vivaldi.svg?raw')
       },
       {
         name: 'Notion',
@@ -81,7 +87,7 @@ const headings = [
       },
       {
         name: 'Neovim',
-        description: 'IDE',
+        description: 'Code Editor',
         href: 'https://neovim.io/',
         icon: import('@/assets/tools/neovim.svg?raw')
       },
@@ -90,12 +96,6 @@ const headings = [
         description: 'IDE',
         href: 'https://visualstudio.microsoft.com/',
         icon: import('@/assets/tools/vs2026.svg?raw')
-      },
-      {
-        name: 'CLion',
-        description: 'IDE',
-        href: 'https://www.jetbrains.com/clion/',
-        icon: import('@/assets/tools/clion.svg?raw')
       }
     ]}
   />
