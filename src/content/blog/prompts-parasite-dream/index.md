@@ -11,6 +11,10 @@ heroImage: { src: './thumbnail.jpg', color: '#5b6e78' }
 
 6月16日Prompts发行的新EP『Parasite Dream』是以这几年发行的单曲为中心的表现现代乐队的情绪的作品。先行发行的抒情曲「Death Of Me」颠覆了迄今为止Prompts的印象。还有其他零星地有意外性的歌曲。那么，Prompts的EP『Parasite Dream』到底表现了什么呢。
 
+>Source：https://satanic.jp/contents/1092359
+>
+>Photography: Yuji Sato, Text: Ryo Tajima
+
 ![](https://picgocloud.com/m/10eb376c-1f2f-4c36-adb9-257796f085d2.jpg)
 <center>从左到右: PIGURI（Ba,Vo）、Ryuki Matsuno（Gt）、Shusuke Yasui（Gt）、PK（Vo）</center>
 
