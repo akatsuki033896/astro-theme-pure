@@ -1,5 +1,5 @@
 ---
-title: 'Ardupilot part2. Ardupilot基础'
+title: 'Ardupilot part.2 Ardupilot基础'
 publishDate: 2026-07-20
 updatedDate: 2026-07-20
 description: 'Ardupilot基础及代码架构'

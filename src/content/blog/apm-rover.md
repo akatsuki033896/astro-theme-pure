@@ -1,5 +1,5 @@
 ---
-title: 'Ardupilot part3. Rover开发无人船及Loiter模式简述'
+title: 'Ardupilot part.3 Rover开发无人船及Loiter模式简述'
 publishDate: 2026-07-20
 updatedDate: 2026-07-20
 description: '简述Rover模式以及分析Loiter Mode在无人船中应用'

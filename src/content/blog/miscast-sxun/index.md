@@ -1,21 +1,31 @@
 ---
-title: 'miscast × Sxun| 激ロック インタビュー'
+title: 'miscast × Sxun | 座谈会'
 publishDate: 2026-08-12
 updatedDate: 2026-08-12
-description: '__'
+description: 'Sxun(P.L.W.Studios / ex-Fear, and Loathing in Las Vegas) × 地下偶像座谈会 part.1'
 tags:
-  - Idol
+  - Alternative Idol
   - Electronicore
 language: 'Chinese'
-# heroImage: { src: './thumbnail.jpg', color: '#5b6e78' }
+heroImage: { src: './thumbnail.jpg', color: '#5b6e78' }
 ---
 
+Source: https://gekirock.com/interview/2020/05/miscast_sxun.php
 
-以名古屋为据点活动的次世代4人组摇滚偶像，miscast。他们发行了Sxun担任乐曲制作的「Midnight Through the Night」、「S.O.S」、「Mythology」三首数字单曲！以电子核为主轴，凭借舞动的优美旋律和曲风广泛的音乐性崭露头角，可以被称作期待的新晋组合。6月举行1周年1st One Man Live。这次除了miscast的4名成员，还邀请了Sxun作为嘉宾。
+miscast：うたげ　ichika　えむこ　Taki
+
+Sxun
+
+Interviewer：荒金 良介
+
+以名古屋为据点活动的次世代4人组摇滚偶像，miscast。他们发行了Sxun担任乐曲制作的「ミッドナイト・スルー・ザ・ナイト」、「S.O.S」、「Mythology」三首数字单曲！以电子核为主轴，凭借舞动的优美旋律和曲风广泛的音乐性崭露头角，可以被称作期待的新晋组合。6月举行1周年1st One Man Live。这次除了miscast的4名成员，还邀请了Sxun作为嘉宾。
 
 ——从miscast成立开始来说，团体本身是19年6月出道的对吧。
 
-ichika：对，我们是在我们举办的名为“mistFES2019”的音乐节上出道的。6月那时有的别的女生在，在那之后9月Taki加入了。
+ichika：对，我们是在我们举办的名为“mistFES2019”[^1]的音乐节上出道的。6月那时有的别的女生[^2]在，在那之后9月Taki加入了。
+
+[^1]: [mistFES](http://mistfes.com)是由miscast的事务所HYPER MEDIA NEET举办的名古屋最大的偶像音乐节。
+[^2]: miscast的初代成员肉寿司，脱退后Taki加入
 
 ——现在的4人体制有什么变化吗？
 
@@ -29,19 +39,35 @@ Taki：说真的加入之前挺不安的，成员们温暖地接纳了我，我�
 
 ——miscast和所谓的王道偶像还是有区别的吧？
 
-Taki：我因为喜欢乐队，也喜欢miscast的音乐风格。偶像也不是喜欢AKB48一样的王道系，喜欢的是WACK的GANG PARADE…
+Taki：我因为喜欢乐队，也喜欢miscast的音乐风格。偶像也不是喜欢AKB48一样的王道系，喜欢的是WACK的GANG PARADE[^3]…
 
-——最近是分成了GO TO THE BEDS 和 PARADISES两个组合是吧。
+[^3]: GANG PARADE(2014-2020, 2022-2026)是日本的10人组另类偶像组合(Alternative Idols)，隶属于事务所WACK，唱片公司为Warner Music Japan, 以“大家的游乐场”为概念进行活动，前身为Pla2me、POP。
 
-Taki：是的！然后，我看了我儘ラキア的Live，感觉星熊南巫的表演很厉害。是我理想中的人呢。
+——最近是分成了GO TO THE BEDS和 PARADISES两个组合是吧[^4]。
+
+[^4]: GANG PARADE在2020年暂停原有的活动，被分成了GO TO THE BEDS和 PARADISES两个组合，2022年重新合并回GANG PARADE并加入新成员。
+
+Taki：是的！然后，我看了我儘ラキア[^5]的Live，感觉星熊南巫的表演很厉害。是我理想中的人呢。
+
+[^5]: 我儘ラキア(2016-2025)是日本偶像组合，隶属于事务所QOOLONG，唱片公司为Japan Music System的WW RECORDS，成员星熊南巫有个人音乐企划活动。
 
 ——其他人能谈谈喜欢的艺术家吗？
 
-うたげ：我喜欢的是金属和死核。看了SEVER BLACK PARANOIA、Victim of Deception的Live。是通过激ロック知道那边的乐队的。
+うたげ：我喜欢的是金属和死核。看了SEVER BLACK PARANOIA[^6]、Victim of Deception[^7]的Live。是通过激Rock[^8]知道那边的乐队的。
 
-ichika：我在当偶像之前不仅听视觉系，还有听硬核朋克的乐队。听的是和现在的miscast做的音乐不一样的东西。开始当偶像之后，最近的话非常喜欢PassCode的南菜生。也因为歌曲的倾向很相似而喜欢我儘ラキア。
+[^6]: SEVER BLACK PARANOIA(2009-)是东京的电子核、Trance金属乐队，经历多次成员更替后变为主唱Daisuke的个人企划。
 
-えむこ：我不听乐队，但是偶像的话我喜欢BiSH。Live很自由，歌曲也很激烈，我想要成为那样的偶像呢。
+[^7]: Victim of Deception(2013-)是东京的死核乐队。
+
+[^8]: 日本的重型音乐 / Loud Rock多媒体品牌，每个月发行免费杂志和多媒体内容，此外还会举办DJ派对、服饰销售等。
+
+ichika：我在当偶像之前不仅听视觉系，还有听硬核朋克的乐队。听的是和现在的miscast做的音乐不一样的东西。开始当偶像之后，最近的话非常喜欢PassCode的南菜生[^9]。也因为歌曲的倾向很相似而喜欢我儘ラキア。
+
+[^9]: PassCode(2013-)是日本大阪出身的电子核偶像团体，隶属于we-B studios, 唱片公司为万代南梦宫旗下的MoooD Records，2016年在环球日本唱片主流出道。
+
+えむこ：我不听乐队，但是偶像的话我喜欢BiSH[^10]。Live很自由，歌曲也很激烈，我想要成为那样的偶像呢。
+
+[^10]: BiSH(2015-2023)是日本的另类偶像团体，号称“不演奏乐器的朋克乐队”，隶属于WACK，唱片公司为avex trax。
 
 ——这次Sxun担任了Sound Produce，能谈谈背景故事吗？
 
@@ -49,7 +75,9 @@ Sxun：我给偶像们发了“愿意让我为你们作曲吗”的营业邮件�
 
 ——miscast的成员们知道Sxun负责歌曲制作之后是怎么想的呢？
 
-うたげ：以前就很喜欢Fear, and Loathing in Las Vegas，我能演唱学生时代非常喜欢的人的歌了呢。不知道现在能不能以自己的实力演唱而感到很不安…Sxun也是亲切好相处的人，考虑了很多，我想更努力一点。
+うたげ：以前就很喜欢Fear, and Loathing in Las Vegas[^11]，我能演唱学生时代非常喜欢的人的歌了呢。不知道现在能不能以自己的实力演唱而感到很不安…Sxun也是亲切好相处的人，考虑了很多，我想更努力一点。
+
+[^11]: Fear, and Loathing in Las Vegas(2008-)是日本神户出身的电子核乐队，目前唱片公司为Victor Entertainment，Sxun为该乐队的主音吉他，于2018年离队。
 
 Taki：我也听Fear, and Loathing in Las Vegas，一开始发生了什么完全不知道。在想为什么Sxun会提供乐曲呢。但是，我最喜欢Fear, and Loathing in Las Vegas的歌了，很开心。
 
@@ -57,17 +85,19 @@ ichika：我的话，说实在不怎么听那样的歌…身边喜欢乐队的�
 
 えむこ：我一直想唱使用autotune的歌了。PassCode、我儘ラキア的歌也加入了autotune。还有，Sxun是善良体贴的人，我觉得就让他来负责歌曲吧。
 
-——这次制作了3首歌，最先做好的是「ミッドナイト・スルー・ザ・ナイト」吗？
+——这次制作了3首歌，最先做好的是「Midnight Through the Night」吗？
 
 Sxun：是的。只能做像自己风格的歌，就专注于把歌做好了。这次回顾了自己刚做乐队的时候喜欢的音乐，有一种回到活动初期的时候开始作曲的的感觉。因此我没有加入特别复杂的段落。
 
 ——当时，Sxun喜欢听什么音乐？
 
-Sxun：那时候非常沉迷头文字D，作品中放了帅气的BGM（当背景音乐），想要做这样的歌呢。四拍子、电子乐、悦耳易记，然后特意加入一些有些俗气但很抓耳的音色。标题的"ミッドナイト・スルー・ザ・ナイト”写成英语(Midnight Through the Night)之后也没什么具体意义（笑）。因为是靠着语感和单词的气氛决定的，我觉得能注意到那些仔细思考会觉得奇怪的地方就好了。
+Sxun：那时候非常沉迷头文字D[^12]，作品中放了帅气的BGM（当背景音乐），想要做这样的歌呢。四拍子、电子乐、悦耳易记，然后特意加入一些有些俗气但很抓耳的音色。标题的"ミッドナイト・スルー・ザ・ナイト”写成英语(Midnight Through the Night)之后也没什么具体意义（笑）。因为是靠着语感和单词的气氛决定的，我觉得能注意到那些仔细思考会觉得奇怪的地方就好了。
 
-——**「ミッドナイト・スルー・ザ・ナイト」的MV用了很多特效很有趣。**
+[^12]: 著名日本赛车动画，原作者为重野秀一，动画以放Eurobeat风格电子乐而著名。
 
-Sxun：歌曲想要传达的信息中隐藏的主题是“自己喜欢的时代不会褪色”，歌曲和MV都贯彻了这个概念。告知（成员们）按照和这首歌相符合的印象去演出，成员们好像也不明白到底要做些什么，和成员们之间的代沟已经不是一星半点了。虽然拍摄的时候工作人员们都在笑，但是成员们好像都不明白MV在致敬什么。所以呢，现在的世代的孩子们看了应该会觉得很新鲜吧。
+——「ミッドナイト・スルー・ザ・ナイト」的MV用了很多特效很有趣。
+
+Sxun：歌曲想要传达的信息中隐藏的主题是“自己喜欢的时代不会褪色”，歌曲和MV都贯彻了这个概念。告知成员们按照和这首歌相符合的印象去演出，成员们好像也不明白到底要做些什么，和成员们之间的代沟已经不是一星半点了。虽然拍摄的时候工作人员们都在笑，但是成员们好像都不明白MV在致敬什么。所以呢，现在的世代的孩子们看了应该会觉得很新鲜吧。
 
 うたげ：我的话放下一边的头发，另一边扎丸子头，在想“居然流行这种发型吗？”但是这让比自己大一辈的人觉得很怀念，就想“啊，原来如此”。
 
@@ -87,7 +117,7 @@ Sxun：但是えむこ在拍摄途中突然就生气了，彻底爆发了（笑�
 
 Taki：以为自己完全被嘲笑了呢。拍的时候工作人员们也爆笑着说着“好耶！”。但是中途决定放手一搏去表演了。
 
-## 想要和别的重型偶像区分开来（**えむこ）**
+## 想要和别的重型偶像区分开来（えむこ）
 
 ——虽然miscast至今为止重型的歌挺多的，「S.O.S」却具有旋律性的曲调呢。
 
@@ -105,13 +135,17 @@ Taki：一开始拿到歌的时候在想“咦，这是谁的歌？”（笑）�
 
 ——然后，「Mythology」是一首节奏欢快适合现场表演的歌。
 
-Sxun：意外地很顺利的做好的歌…具体来说，想要做像SCANDAL那样的女子摇滚的歌。乐器的声音也和这种感觉相符，做出女生具有攻击性地弹奏Stratocaster或Jaguar吉他的编曲。
+Sxun：意外地很顺利的做好的歌…具体来说，想要做像SCANDAL[^13]那样的女子摇滚的歌。乐器的声音也和这种感觉相符，做出女生具有攻击性地弹奏Stratocaster或Jaguar吉他的编曲。
+
+[^13]:SCANDAL(2006-)是日本大阪的女子流行摇滚乐队。
 
 ——做出了很好体现出乐队感的歌。
 
 Sxun：最初发行的2首歌电子乐要素很强，我觉得听起来气氛可能不太一样。以吉他的编曲为主，合成器少一点就够了的程度。
 
-ichika：蛮早以前会唱「Too Noisy! Too Noetic!」，那个大多数是最后才演唱的。听说「Mythology」是接替那个位置的歌，我认为是可以让大家一起嗨起来的歌。然后也加入了有miscast风格的极端嗓。
+ichika：蛮早以前会唱「Too Noisy! Too Noetic!」[^14]，那个大多数是最后才演唱的。听说「Mythology」是接替那个位置的歌，我认为是可以让大家一起嗨起来的歌。然后也加入了有miscast风格的极端嗓。
+
+[^14]: 「Too Noisy! Too Noetic!」由miscast前身团体the mistress演唱，ichika为the mistress成员，名义为ichigo。
 
 Taki：这是大家一起享受的歌，我喜欢看似要结束却又没有结束的那部分，那里会让粉丝觉得困惑呢。
 
@@ -119,11 +153,11 @@ Taki：这是大家一起享受的歌，我喜欢看似要结束却又没有结�
 
 えむこ：这首歌有结尾的感觉，我会努力让它变得更帅。
 
-——6月13日、14日会作为主办方举办**"mistFES2020"（取材是4月中旬），各位心情如何？**
+——6月13日、14日会作为主办方举办"mistFES2020"（取材是4月中旬），各位心情如何？
 
 ichika：第一次有很多人来看的是去年的"mistFES2019”，当时团队凝聚力还不够强，今年表演的时候想要更加团结一致。然后，音乐节本身还没有留下miscast的印象，想让大家发现miscast的魅力。
 
-——在那之后就是1周年1st one man（6月21日举办**"miscast 1st ONEMAN LIVE「ONE」"）。**
+——在那之后就是1周年1st one man（6月21日举办"miscast 1st ONEMAN LIVE「ONE」"）。
 
 うたげ：这1年举办的Live数量在偶像中也算挺多的，想让大家看看我们成长的部分。
 
@@ -131,8 +165,10 @@ Sxun：我觉得能够让粉丝看到成长过程正是Indiese Idol的精华所�
 
 えむこ：我们会为了能够和其他的Loud Rock系偶像区别化而练习，能成为压倒的存在努力的！
 
-### **LIVE INFORMATION"miscast 1st ONEMAN LIVE「ONE」"**
+## LIVE INFORMATION"miscast 1st ONEMAN LIVE「ONE」"
 
 6月21日（日）名古屋RAD HALL　SOLD OUT
 
 1部 START 14:00　2部 START 19:00
+
+---
