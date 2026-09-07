@@ -146,12 +146,12 @@ class Rover : public AP_HAL::HAL::Callbacks {
 
 ## L1 导航
 
+以下旧内容仅供参考，目前 L1 导航文档已更新：https://ardupilot.org/dev/docs/rover-L1.html
+
 位于`AP_L1_Control.h` ，`AP_L1_Control` 类继承自抽象类 `AP_Navigation` ，重写部分成员函数
 
 - AP_Navigation(参数定义)：generic navigation controller interface
 - waypoint（航路点）：导航路径上的一个特定坐标点，通常由GPS提供其经纬度坐标。在GPS导航中，一条路线（Route）通常由起点、终点和一系列中间航路点构成。在GPS数据中，航路点（Waypoints）、路线（Routes）和轨迹（Tracks）是三种基本要素类型。
-
-![](https://ardupilot.org/dev/_images/rover-navigation-overview.png)
 
 位置信息来自 `AP_Common/Location.h` 的 `Location` 类，成员主要包含经度纬度高度，还有一些接口
 
@@ -161,8 +161,6 @@ int32_t alt; // in cm
 int32_t lat; // in 1E7 degrees
 int32_t lng; // in 1E7 degrees
 ```
-
-![](https://ardupilot.org/dev/_images/rover-L1.png)
 
 ```cpp
 // update L1 control for waypoint navigation
