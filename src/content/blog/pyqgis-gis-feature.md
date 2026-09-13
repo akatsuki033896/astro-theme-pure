@@ -4,6 +4,7 @@ publishDate: 2026-09-08
 updatedDate: 2026-09-08
 description: 介绍PyQGIS和如何使用PyQGIS操作QGIS特性
 tags:
+  - PyQt
   - QGIS
 language: Chinese
 ---

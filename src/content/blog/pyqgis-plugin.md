@@ -4,8 +4,7 @@ publishDate: 2026-08-03
 updatedDate: 2026-09-03
 description: '使用Plugin Builder 3和PyCharm开发QGIS插件'
 tags:
-  - Qt
-  - Python
+  - PyQt
   - QGIS
 language: 'Chinese'
 ---
