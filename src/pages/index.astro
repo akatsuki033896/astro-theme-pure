@@ -12,8 +12,8 @@ import SkillLayout from '@/components/home/SkillLayout.astro'
 import config from '@/site-config'
 
 const programming = ['C', 'C++', 'CMake','Python', 'Lua']
-const framework = ['Ardupilot', 'Qt', 'PyTorch']
-const tools = ['VSCode', 'Visual Studio', 'Vim', 'Git', 'Docker', 'Linux', 'RTOS', 'MATLAB']
+const framework = ['OSGeo4W', 'Ardupilot', 'Qt', 'PyTorch']
+const tools = ['QGIS', 'VSCode', 'Visual Studio', 'Vim', 'Git', 'Docker', 'Linux']
 
 const MAX_POSTS = 10
 const allPosts = await getBlogCollection()
@@ -77,9 +77,10 @@ if (!images[imagePath])
       <Section title='About'>
         <p class='text-muted-foreground'>Developer / Artist / Musician</p>
         <p class='text-muted-foreground'>
-          I'm Akatsuki, a C++ developer. I'm working on GIS development and rendering.
-          
-          I like Metalcore, Electronicore, Melodic-Hardcore, Hip-Hop and Japanese Loud Rock music genre.
+          我是 Akatsuki, 目前从事电子海图相关业务的 GIS 相关开发，职位是 C++ 软件工程师。我毕业于2026年，就学期间的研究方向是物理层密钥生成。
+        </p>
+        <p class='text-muted-foreground'>
+          我喜欢重型音乐，聚焦于金属核、电子核、旋律硬核和广义朋克。我喜欢重型偶像。
         </p>
         <Button title='More about me' class='w-fit self-end' href='/about' variant='ahead' />
       </Section>
