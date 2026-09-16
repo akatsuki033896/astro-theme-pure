@@ -5,7 +5,6 @@ updatedDate: 2026-03-02
 description: '为什么不让我用Linux'
 tags:
   - stm32
-  - 嵌入式
 language: 'Chinese'
 heroImage: { src: './thumbnail.png', color: '#5b6e78' }
 ---
