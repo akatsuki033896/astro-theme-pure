@@ -1,8 +1,8 @@
 ---
-title: 'miscast × Sxun | 座谈会'
+title: 'miscast part.1: miscast × Sxun | 座谈会'
 publishDate: 2026-08-12
 updatedDate: 2026-08-12
-description: 'Sxun(P.L.W.Studios / ex-Fear, and Loathing in Las Vegas) × 地下偶像座谈会 part.1'
+description: 'Sxun(P.L.W.Studios / ex-Fear, and Loathing in Las Vegas) × 地下偶像座谈会'
 tags:
   - Alternative Idol
   - Electronicore
