@@ -4,7 +4,12 @@
       "id_name": "cf-links",
       "desc": "Common links included in circle friends",
       "link_list": [
-        
+        {
+          "name": "航图笔记",
+          "intro": "电子海图与地图渲染技术笔记：S-57 / S-52 / S-100 / MapLibre 源码走读",
+          "link": "https://nightchart.cn/index.html",
+          "avatar": "https://p9-passport.byteacctimg.com/img/user-avatar/8319b36032a5a5d3eb8c572f45eae690~90x90.awebp"
+        }
       ]
     },
     {
@@ -15,14 +20,7 @@
     {
       "id_name": "special-links",
       "desc": "Other special links",
-      "link_list": [
-        {
-          "name": "Astro",
-          "intro": "The web framework for content-driven websites",
-          "link": "https://astro.build/",
-          "avatar": "https://avatars.githubusercontent.com/u/44914786?s=200&v=4"
-        }
-      ]
+      "link_list": []
     }
   ]
 }
