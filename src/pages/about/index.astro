@@ -32,7 +32,7 @@ const headings = [
 
   {/* tools */}
   <h2 id='tools'>Tools</h2>
-  <p>Current support tools as follow:</p>
+ 
   <ToolSection
     class='mb-5'
     title='Design'
@@ -116,19 +116,57 @@ const headings = [
         icon: import('@/assets/tools/apple.svg?raw')
       },
       {
-        name: 'Ubuntu 24.04 LTS',
+        name: 'Ubuntu 22.04 LTS',
         description: 'Linux Distribution',
         href: 'https://ubuntu.com/',
         icon: import('@/assets/tools/ubuntu.svg?raw')
       },
       {
         name: 'Windows 11',
-        description: 'Lenovo R7000P 2021',
+        description: 'i5-12600KF/RTX4070/32GB RAM',
         href: 'https://news.microsoft.com/windows11-general-availability/',
         icon: import('@/assets/tools/windows11.svg?raw')
       }
     ]}
   />
+  
+  <h3 id='tools-mac'>Mac</h3>
+
+  <ul>
+  <li><a href="https://brew.sh/" target="_blank">brew</a>：mac最常见的包管理器。</li>
+  <li><a href="https://www.keka.io/en/" target="_blank">Keka</a>：压缩工具，支持 <code>rar</code> 和 <code>7z</code>，解决系统只支持解压 <code>zip</code> 和自带压缩存在潜在和windows系统互传解压错误的问题。</li>
+  <li><a href="https://github.com/iina/iina" target="_blank">IINA</a>：开源媒体播放器，用于临时播放音频和媒体文件，不在 ffmpeg 耻辱柱上可放心使用。插件很多。</li>
+  <li><a href="https://www.raycast.com" target="_blank">Raycast</a>：集成很多工具，实际上用得最多的是 <code>Command+Space</code> 启动应用程序，因为mac自带的启动台在你持有iPhone的时候会显示手机装的程序，很难用。免费版就很够用了，支持安装第三方扩展。</li>
+  <li><a href="https://github.com/jordanbaird/Ice" target="_blank">Ice</a>：开源菜单栏管理器，只拿来默认隐藏菜单栏。</li>
+  <li><a href="https://github.com/nikitabobko/AeroSpace" target="_blank">AeroSpace</a>：开源平铺式窗口管理器，屏幕小的其实很难有这个需求。</li>
+  <li><a href="https://bjango.com/mac/istatmenus/" target="_blank">iStatMenus</a>：系统监控工具，支持在菜单栏显示。</li>
+  <li><a href="https://betterdisplaymac.com" target="_blank">Better Display</a>：屏幕显示优化工具，实际上我只用来开启HiDPI，如果只有这个需求可以考虑开源脚本 <a href="https://github.com/xzhih/one-key-hidpi" target="_blank">xzhih/one-key-hidpi</a> 。</li>
+  </ul>
+
+  <h3 id='tools-windows'>Windows</h3>
+  <ul>
+  <li><a href="https://chocolatey.org/" target="_blank">Chocolatey</a>：windows包管理器，通常还可以使用的是 <a href="https://scoop.sh/" target="_blank">Scoop</a> 和windows11自带的winget，这三个基本能装的都装了。</li>
+  <li><a href="https://github.com/microsoft/terminal" target="_blank">Windows Terminal</a>：Microsoft自己的终端模拟器。</li>
+  <li><a href="https://learn.microsoft.com/zh-cn/windows/powertoys/" target="_blank">Power Toys</a>：Microsoft推出的工具，支持 <code>win+alt+Space</code> 唤出类似 Raycast 的面板运行应用，也支持快速修改环境变量（主要使用这两个功能而已…）</li>
+  <li><a href="https://tortoisesvn.net/index.zh.html" target="_blank">Tortoise SVN</a>：开源的版本控制工具GUI客户端，公司指定。</li>
+  <li><a href="https://massgrave.dev" target="_blank">MAS Script</a>：开源Office全家桶下载和破解脚本。</li>
+  <li><a href="https://github.com/M2Team/Nanazip" target="_blank">NanaZip</a>：开源windows平台解压缩软件，原来使用BandiZip但我不想看广告。</li>
+  <li><a href="https://geekuninstaller.com/" target="_blank">Geek Uninstaller</a>：windows平台卸载器，支持清除注册表。</li>
+  <li><a href="https://github.com/raphire/win11debloat" target="_blank">Win11 Debloat</a>：windows11全面优化脚本，卸载不必要的内容</li>
+  </ul>
+
+  <h3 id='tools-cp'>Cross-Platform Tools</h3>
+  <ul>
+  <li><a href="https://docs.anaconda.net.cn/miniconda/install/" target="_blank">MiniConda</a>：Python虚拟环境，轻量的Anaconda。</li>
+  <li><a href="https://github.com/Molunerfinn/PicGo" target="_blank">PicGo</a>：开源图床，迁移到这边是因为以前用的 sm.ms 停止服务而且要钱了。</li>
+  <li><a href="https://github.com/localsend/localsend" target="_blank">LocalSend</a>：开源局域网传输工具。</li>
+  <li><a href="https://github.com/2dust/v2rayN" target="_blank">v2rayN</a>：开源代理工具。</li>
+  <li><a href="https://qgis.org" target="_blank">QGIS</a>：开源的地理信息系统软件。</li>
+  <li><a href="https://zcode.z.ai/" target="_blank">ZCode</a>：智谱集成GLM-5.3的ADE(Agentic Development Environment)。</li>  
+  <li><a href="https://github.com/starship/starship" target="_blank">starship</a>：命令行美化工具，支持多种shell，主要用于确认环境。</li>
+  <li><a href="https://www.ffmpeg.org/" target="_blank">ffmpeg</a>：开源音频处理。有很多单纯套壳GUI就发布的软件，不建议使用。</li>
+  <li><a href="https://git-scm.com/" target="_blank">git</a>：版本管理工具。</li>
+</ul>
 
   {/* social-networks */}
   <h2 id='social-networks'>Social Networks</h2>
