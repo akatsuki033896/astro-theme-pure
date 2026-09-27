@@ -12,6 +12,7 @@
     "verbatimModuleSyntax": true,
     // Others
     "strictNullChecks": true,
+    "moduleResolution": "bundler",
     // Paths
     "paths": {
       "@/assets/*": ["./src/assets/*"],
