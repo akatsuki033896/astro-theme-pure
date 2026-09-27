@@ -11,8 +11,8 @@ import Section from '@/components/home/Section.astro'
 import SkillLayout from '@/components/home/SkillLayout.astro'
 import config from '@/site-config'
 
-const programming = ['C', 'C++', 'CMake','Python', 'Lua']
-const framework = ['OSGeo4W', 'Ardupilot', 'Qt', 'PyTorch']
+const programming = ['C', 'C++', 'CMake', 'Python', 'Lua']
+const framework = ['OSGeo4W', 'OpenGL', 'Ardupilot', 'Qt', 'PyTorch']
 const tools = ['QGIS', 'VSCode', 'Visual Studio', 'Vim', 'Git', 'Docker', 'Linux']
 
 const MAX_POSTS = 10
@@ -46,12 +46,7 @@ if (!images[imagePath])
           <Label title='China / Xiamen'>
             <Icon name='location' class='size-5' slot='icon' />
           </Label>
-          <Label
-            title='GitHub'
-            as='a'
-            href='https://github.com/akatsuki033896'
-            target='_blank'
-          >
+          <Label title='GitHub' as='a' href='https://github.com/akatsuki033896' target='_blank'>
             <Icon name='github' class='size-5' slot='icon' />
           </Label>
         </div>
@@ -69,7 +64,9 @@ if (!images[imagePath])
           ></span>
           <span class='size-2 rounded-full bg-green-400'></span>
         </span>
-        <p class='font-medium text-muted-foreground'>Ending will be coming in front with a hollow. So we better ready to flame.</p>
+        <p class='font-medium text-muted-foreground'>
+          Ending will be coming in front with a hollow. So we better ready to flame.
+        </p>
       </a>
     </section>
 
@@ -77,10 +74,10 @@ if (!images[imagePath])
       <Section title='About'>
         <p class='text-muted-foreground'>Developer / Artist / Musician</p>
         <p class='text-muted-foreground'>
-          我是 Akatsuki, 目前从事电子海图相关业务的 GIS 相关开发，职位是 C++ 软件工程师。我毕业于2026年，就学期间的研究方向是物理层密钥生成。
-        </p>
-        <p class='text-muted-foreground'>
-          我喜欢重型音乐，聚焦于金属核、电子核、旋律硬核和广义朋克。我喜欢重型偶像。
+          I'm Akatsuki, a C++ developer. I'm working on GIS and Map Engines's development. I was
+          graduated at 2026 with a major in Computer Science and Technology. My research focused on
+          Physical Layer Key Generation (PLKG). I like Metalcore, Electronicore, Melodic-Hardcore,
+          Melodic-Hardcore and Punk.
         </p>
         <Button title='More about me' class='w-fit self-end' href='/about' variant='ahead' />
       </Section>
@@ -136,15 +133,6 @@ if (!images[imagePath])
           date='September 2022 - June 2026'
           href='https://ccs.fjnu.edu.cn/xyjj/list.htm'
         >
-          {
-            /* <ul class='ms-4 list-disc text-muted-foreground'>
-          <li>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis recusandae, ut
-            molestiae laboriosam pariatur!
-          </li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, pariatur!</li>
-        </ul> */
-          }
         </Card>
       </Section> -->
 
@@ -193,6 +181,6 @@ if (!images[imagePath])
         <SkillLayout title='Framework' skills={framework} />
       </Section>
     </div>
-    <Quote class='mt-12' />
+    <!-- <Quote class='mt-12' /> -->
   </main>
 </PageLayout>
