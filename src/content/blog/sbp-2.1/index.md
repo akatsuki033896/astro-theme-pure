@@ -9,6 +9,8 @@ language: 'Chinese'
 heroImage: { src: './thumbnail.jpg', color: '#5b6e78' }
 ---
 
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/east-of-eden-ep/1491914448"></iframe>
+
 ## Interview
 
 Resource: http://eggman.jp/special/sever_black_paranoia_interview/
