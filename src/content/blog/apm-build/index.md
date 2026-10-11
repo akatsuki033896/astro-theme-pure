@@ -230,7 +230,7 @@ bin/ardurover   1425312      2776   126076               1428088          636292
 
 ## 在wsl2使用SITL进行模拟
 
-![](https://ardupilot.org/dev/_images/ArdupilotSoftwareintheLoopSITL.jpg)
+![](https://ardupilot.org/dev/_images/sitl-architecture.svg)
 
 SITL(Software in the Loop)可以在不需要任何硬件的条件下模拟ardupilot，主要用于测试算法等。ardupilot通过TCP5763端口通过TCP5760端口直接和Mission Planner地面站进行通信，也可以使用MAVProxy协议进行通信，再通过UDP14550和其他地面站例如QGroundControl进行通信。
 
