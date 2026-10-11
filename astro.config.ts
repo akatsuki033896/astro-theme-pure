@@ -73,6 +73,10 @@ export default defineConfig({
 
   // [Markdown]
   markdown: {
+    // Astro 6.4 deprecated `gfm` and stopped defaulting it in the resolved config,
+    // which silently disables GFM (tables, strikethrough, ...) in MDX files with
+    // @astrojs/mdx@5.x. Set it explicitly until the theme bumps its MDX version.
+    gfm: true,
     remarkPlugins: [remarkMath],
     rehypePlugins: [
       [rehypeKatex, {}],
